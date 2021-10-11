@@ -1,18 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Filter() {
+    /*     const movies = data.item;
     const data = require('../datas.json');
-    const movies = data.item;
+*/ 
+const[filtredMovie, setFiltredMovie]= useState({
+        "title": "",
+        "rate": 0
+})
+
+    function getValue() {
+        var inputName = document.getElementById("nameFilted").value;
+        var inputRate = document.getElementById("rateFiltred").value
+        return alert(inputName+inputRate);
+        
+}
+
+
     return (
         <div >
-            <input type="text" name="nameFilted" placeholder="Name filtred"/><br/><br/>
-            <input type="number" max="5" min="1" name="rateFiltred" placeholder="Rate filtred"/>
+            <input type="text" id="nameFilted" placeholder="Name filtred"/><br/><br/>
+            <input type="number" style={{width:"255px"}}  max="5" min="1" id="rateFiltred" placeholder="Rate filtred"/><br/><br/>
+            <button type="button" onClick={getValue}>Filter</button>
         </div>
         );
     }
     export default Filter;
     /* { movies.map((movie)=>{
-        if (movie.title==="OBSESSED") {
+    if (movie.title==="OBSESSED") {
             
          return(
              <div key={movie.id}>

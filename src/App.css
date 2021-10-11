@@ -7,6 +7,7 @@
   flex-wrap: wrap;
 }
 
-.movieL_filter{
+.movielist_filter{
   display: flex;
+  justify-content: space-around
 }
