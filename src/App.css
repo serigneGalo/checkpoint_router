@@ -1,0 +1,12 @@
+.App{
+  padding: 5%;
+}
+.movieCard{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movieL_filter{
+  display: flex;
+}
