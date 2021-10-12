@@ -8,11 +8,12 @@ function getValue() {
   var inputPoster = document.getElementById("porsterUrl").value;
   var inputRate = document.getElementById("rate").value;
   var inputDescription = document.getElementById("description").value;
-
-  return alert(inputName+inputPoster+inputRate+inputDescription);
+console.log(inputName+inputPoster+inputRate+inputDescription);
+  return 
 }
 
 function App() {
+  
   return (
     <div className="App">
       <div className="movieCard">
