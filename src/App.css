@@ -1,13 +1,22 @@
 .App{
   padding: 5%;
+  background: linear-gradient(50deg,green,yellow,red);
+}
+.gridMovie{
+  display: grid;
 }
 .movieCard{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.movielist_filter{
+/* .movielist_filter{
   display: flex;
   justify-content: space-around
+} */
+
+.movieList_Add{
+  display: flex;
+  justify-content: space-evenly;
 }

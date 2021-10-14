@@ -13,7 +13,7 @@
         "title": "DEMON SLAYER",
         "description":"Demon slayer Movie Description",
         "PosterURL":"https://fr.web.img6.acsta.net/pictures/21/09/27/11/50/4294280.jpg",
-        "rate": 4
+        "rate": 3
     },
 
     {
@@ -33,11 +33,11 @@
     },
     {
         "id" :5,
-        "title": "",
-        "description":"",
-        "PosterURL":"#",
-        "rate": ""
-    }
+        "title": "LE ROI LION",
+        "description":"lE ROI LION Movie Description",
+        "PosterURL":"https://lumiere-a.akamaihd.net/v1/images/image_8ce8d7f0.jpeg?region=0,0,540,810",
+        "rate": 4
+    } 
 
 ]}
 
